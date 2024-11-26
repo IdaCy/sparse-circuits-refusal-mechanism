@@ -1,6 +1,6 @@
 # Sparse Circuits Refusal Mechanisms
 
-### Planned repository structure:
+### Repository structure:
 
 sparse-circuits-refusal-mechanism/
 ├── README.md
@@ -12,11 +12,5 @@ sparse-circuits-refusal-mechanism/
 │   ├── models/
 │   │   ├── load_model.py
 │   │   ├── analyze_residuals.py
-│   ├── circuits/
-│   │   ├── circuit_identification.py
-│   │   ├── neuron_probing.py
-│   ├── tests/
-│       ├── test_load_model.py
-│       ├── test_circuit_identification.py
-└── notebooks/
-    ├── exploration.ipynb
+│   │   ├── generate_responses.py
+│   │   ├── inspect_activations.py
