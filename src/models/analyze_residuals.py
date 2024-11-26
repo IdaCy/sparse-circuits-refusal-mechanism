@@ -1,4 +1,4 @@
-import torch
+#  import torch
 
 def analyze_residuals(model, tokenizer, prompt):
     inputs = tokenizer(prompt, return_tensors="pt")
@@ -6,6 +6,7 @@ def analyze_residuals(model, tokenizer, prompt):
     hidden_states = outputs.hidden_states
     print(f"Number of layers: {len(hidden_states)}")
     return hidden_states
+
 
 if __name__ == "__main__":
     from load_model import load_model
